@@ -19,7 +19,9 @@ import ProxyCloud
 import socket
 import tlmedia
 import S5Crypto
+from config import (
 
+    API_ID, OWNER)
 
 
 def downloadFile(downloader,filename,currentBits,totalBits,speed,time,args):
